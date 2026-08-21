@@ -15,6 +15,7 @@ This repository is a collection of themes for HortusFox. It is intended contains
 - minecraft
 - night
 - pixelart
+- pixelart_light
 - prehistoricals
 - shelf
 - shrooms
