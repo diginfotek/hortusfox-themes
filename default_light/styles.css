@@ -1,0 +1,243 @@
+:root {
+    --primary: #00d1b2;
+    --link-color: #3273dc;
+    --link-hover-dark: #363636; /*done*/
+    --link-hover-light: #e6e6e6; /*done*/
+    --body-dark: #4a4a4a; /*Done*/
+    --body-light: #dbdbdb;/*dome*/
+    --info-color: #209cee;
+    --success-color: #23d160;
+    --warning-color: #ffdd57;
+    --danger-color: #ff3860;
+    --text-color: #0a0a0a;
+    --background-color-light: #ffffff;
+    --background-color-dark: #0a0a0a;
+}
+
+:root {
+    --colour-dark-1: #0a0a0a;
+    --colour-dark-2: #121212;
+    --colour-dark-3: #242424;
+    --colour-dark-4: #292929;
+    --colour-dark-5: #363636;
+    --colour-dark-6: #4a4a4a;
+    --colour-dark-7: #7a7a7a;
+    --colour-dark-8: #b5b5b5;
+    --colour-dark-9: #323230;
+    --colour-light-1: #dbdbdb;
+    --colour-light-2: #e6e6e6;
+    --colour-light-3: #e8e8e8;
+    --colour-light-4: #eeeeee;
+    --colour-light-5: #f2f2f2;
+    --colour-light-6: #f9f9f9;
+    --colour-light-7: #fafafa;
+    --colour-light-8: #f5f5f5;
+    --colour-light-9: #ffffff;
+}
+
+html body {
+    background-color: var(--colour-light-8) !important;
+    color: var(--colour-dark-1) !important;
+}
+
+h1 {
+    color: var(--colour-dark-1) !important;
+}
+
+h2 {
+    color: var(--colour-dark-2) !important;
+}
+
+h3 {
+    color: var(--colour-dark-3) !important;
+}
+
+h4 {
+    color: var(--colour-dark-4) !important;
+}
+
+h5 {
+    color: var(--colour-dark-5) !important;
+}
+
+h6 {
+    color: var(--colour-dark-6) !important;
+}
+
+.navbar {
+    background-color: var(--colour-light-8) !important;
+    color: var(--colour-dark-1) !important;
+}
+.navbar-item, .navbar-brand, .navbar-item a, .button.is-success, .button.is-info, .button.is-warning, .button.is-danger {
+    color: var(--colour-dark-1) !important;
+}
+.navbar-item:hover, .navbar-brand:hover, .navbar-item:hover a{
+    color: var(--colour-dark-4) !important;
+}
+.navbar-item:active, .navbar-brand:active, .navbar-item a:active, .button.is-success:active, .button.is-info:active, .button.is-warning:active, .button.is-danger:active {
+    color: var(--colour-dark-1) !important;
+}
+@media screen and (min-width: 1088px) {
+    .navbar-start .navbar-link::after, .navbar-end .navbar-link::after {
+        border-color: var(--colour-dark-1) !important;
+    }
+}
+.navbar-dropdown {
+    background-color: var(--colour-light-9) !important;
+}
+.navbar-dropdown a:hover {
+    color: var(--colour-dark-3) !important;
+    background-color: var(--colour-light-1) !important;
+}
+@media screen and (min-width: 1088px) {
+    .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: var(--colour-light-5) !important;
+        color: var(--colour-dark-1) !important;
+    }
+}
+.button.is-success:hover, .button.is-info:hover, .button.is-warning:hover, .button.is-danger:hover  {
+    color: var(--colour-light-8) !important;
+}
+
+.task {
+    background-color: var(--colour-light-6) !important;
+}
+
+.task-header-title, .task-footer-date, .location-title, .location-footer, .warning-plants-title, .weather-day-data-title {
+    color: var(--colour-dark-6) !important;
+}
+
+.stats-item-count, .weather-header-item, .weather-header-item strong {
+    color: var(--colour-dark-7) !important;
+}
+
+.stats-item-label, .plant-tags-item a, .dashboard-weather {
+    color: var(--colour-dark-1) !important;
+}
+
+.task-header, .location-title, .location-footer, .plant-photo-overlay {
+    background-color: rgba(255, 255, 255, 0.83) !important;
+}
+
+.task-header {
+    background-color: rgba(235, 235, 235, 0.83) !important;
+}
+
+.task-footer {
+    background-color: var(--colour-light-3) !important;
+}
+
+.task, .log {
+    border: 1px solid var(--colour-light-1) !important;
+}
+
+.last-added-or-authored-plants, .log, .stats-item, .warning-plants, .overdue-tasks, .plant-notes, .weather-header-item {
+    background-color: var(--colour-light-3) !important;
+}
+
+.table-bright-color {
+    background-color: var(--colour-light-1) !important;
+}
+
+.plant-card-title {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    color: var(--colour-dark-3) !important;
+}
+
+.plant-photo-overlay svg {
+    color: var(--colour-dark-3) !important;
+}
+
+.sorting-control select, .sorting-control input[type=text], #tasks-filter, #inventory-filter, .calendar-input, .input, .textarea {
+    background-color: rgba(250, 250, 250, 0.9) !important;
+}
+
+.calendar-input, .input {
+    color: var(--colour-dark-3) !important;
+}
+
+.is-input-dark {
+    background-color: white !important;
+    border-color: #dbdbdb !important;
+    color: #363636 !important;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1) !important;
+}
+
+.sorting-control a.is-selected {
+    color: rgb(50, 50, 50) !important;
+}
+
+.admin-tabs a {
+    color: #4a4a4a !important;
+}
+
+.admin-tabs a:hover {
+    color: #363636 !important;
+    background-color: var(--colour-light-4) !important;
+}
+
+.admin-location div.admin-location-item:first-of-type {
+    min-width: 30px;
+}
+
+.admin-calendar-class-actions {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.admin-themes p, .admin-info-version {
+    color: var(--colour-dark-5) !important;
+}
+
+.admin-themes-list td, .plant-column table td {
+    color: var(--colour-dark-3) !important;
+    border: 1px solid var(--colour-dark-8) !important;
+}
+
+.plant-column table strong {
+    color: var(--colour-dark-3) !important;
+}
+
+.modal-background {
+    background-color: rgba(250, 250, 250, 0.9) !important;
+}
+
+.modal-card-head {
+    background-color: var(--colour-light-1) !important;
+    border-bottom: 1px solid var(--colour-light-1) !important;
+    p {
+        color: var(--colour-dark-5) !important;
+    }
+    button.delete {
+        background-color: var(--colour-dark-7) !important;
+    }
+}
+
+.modal-card-body {
+    background-color: var(--colour-light-4) !important;
+    input, textarea, select {
+        border: 1px solid var(--colour-dark-8) !important;
+    }
+    label {
+        color: var(--colour-dark-7) !important;
+    }
+}
+
+.modal-card-foot {
+    background-color: var(--colour-light-4) !important;
+    border-top: 1px solid var(--colour-light-4) !important;
+}
+
+.weather-day {
+    background-color: var(--colour-light-3) !important;
+}
+
+.weather-header-item {
+    margin-left: 19px !important;
+}
+
+.plant-list-item {
+    background-color: var(--colour-light-7) !important;
+    border: 1px solid var(--colour-light-1) !important;
+    margin-top: -1px; /* Prevent double borders */
+}
