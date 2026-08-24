@@ -68,10 +68,10 @@ h6 {
     background-color: var(--colour-light-8) !important;
     color: var(--colour-dark-1) !important;
 }
-.navbar-item, .navbar-brand, .navbar-item a, .button.is-success, .button.is-info, .button.is-warning, .button.is-danger {
+.navbar-item, .navbar-brand, .navbar-item a, .button.is-success, .button.is-info, .button.is-warning, .button.is-danger, .navbar-burger {
     color: var(--colour-dark-1) !important;
 }
-.navbar-item:hover, .navbar-brand:hover, .navbar-item:hover a{
+.navbar-item:hover, .navbar-brand:hover, .navbar-item:hover a, .navbar-burger:hover {
     color: var(--colour-dark-4) !important;
 }
 .navbar-item:active, .navbar-brand:active, .navbar-item a:active, .button.is-success:active, .button.is-info:active, .button.is-warning:active, .button.is-danger:active {
