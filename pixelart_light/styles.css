@@ -77,6 +77,14 @@ h6 {
 .navbar-item:active, .navbar-brand:active, .navbar-item a:active, .button.is-success:active, .button.is-info:active, .button.is-warning:active, .button.is-danger:active {
     color: var(--colour-dark-1) !important;
 }
+@media screen and (max-width: 1087px) {
+    .app-padding-pwa .navbar-menu {
+        background-color: var(--colour-light-6) !important;
+    }
+    .app-padding-pwa .navbar-menu .navbar-item:nth-child(n+2):hover {
+        background-color: var(--colour-light-4) !important;
+    }
+}
 @media screen and (min-width: 1088px) {
     .navbar-start .navbar-link::after, .navbar-end .navbar-link::after {
         border-color: var(--colour-dark-1) !important;
