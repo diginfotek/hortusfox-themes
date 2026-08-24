@@ -274,3 +274,6 @@ h6 {
     background-color:rgba(230, 230, 230, 0.76) !important;
     border: 1px solid var(--colour-light-1) !important;
 }
+.inventory-item-amount span {
+    color: var(--colour-dark-1) !important;
+}
