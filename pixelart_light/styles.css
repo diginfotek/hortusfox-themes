@@ -234,6 +234,7 @@ h6 {
     background-color: var(--colour-light-4) !important;
     input, textarea, select {
         border: 1px solid var(--colour-dark-8) !important;
+        color: var(--colour-dark-3) !important;
     }
     label {
         color: var(--colour-dark-7) !important;
@@ -257,4 +258,11 @@ h6 {
     background-color: var(--colour-light-7) !important;
     border: 1px solid var(--colour-light-1) !important;
     margin-top: -1px; /* Prevent double borders */
+}
+
+.inventory-groups {
+    background-color: var(--colour-light-2) !important;
+    td, a {
+        color: var(--colour-dark-1) !important;
+    }
 }
