@@ -95,6 +95,15 @@ h6 {
         color: var(--colour-dark-1) !important;
     }
 }
+.bottomnav {
+    background-color: var(--colour-light-4) !important;
+    a {
+        color: var(--colour-dark-1) !important;
+    }
+    a:hover {
+        color: var(--colour-dark-7) !important;
+    }
+}
 .button.is-success:hover, .button.is-info:hover, .button.is-warning:hover, .button.is-danger:hover  {
     color: var(--colour-light-8) !important;
 }
